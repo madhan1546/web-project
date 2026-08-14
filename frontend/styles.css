@@ -26,11 +26,30 @@ h1{
 }
 
 body{
-    background-color: antiquewhite;
+     background:linear-gradient( rgb(124, 204, 241), rgb(109, 224, 168));
+    margin: 0;
 }
 .card button{
     width: 70%;
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
+}
+.navbar{
+    text-align: center;
+    border: 3px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: rgb(181, 224, 251);
+
+}
+
+
+.navbar a{
+    margin-right: 50px;
+    color: rgb(117, 24, 24);
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(237, 145, 26);
 }
